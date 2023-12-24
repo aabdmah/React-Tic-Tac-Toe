@@ -100,6 +100,7 @@ const moves = history.map((squares, move) => {
 
   return (
     <div className="game">
+      <h1>Welcome!</h1>
       <div className="game-board">
       <Board squares={currentSquares} xIsNext={xIsNext} onplay={handelPlay} />
       </div>
